@@ -1,0 +1,28 @@
+{
+  "name": "rpgmz-coding-toolkit",
+  "version": "1.0.0",
+  "description": "ツクール MZ 専用プログラミングツールキット",
+  "main": "analyzeCorescript.js",
+  "scripts": {
+    "start": "node server.js",
+    "analyze": "node analyzeCore",
+    "separate": "node separateCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katai5plate/rpgmz-coding-toolkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katai5plate/rpgmz-coding-toolkit/issues"
+  },
+  "homepage": "https://github.com/katai5plate/rpgmz-coding-toolkit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "puppeteer": "^10.2.0",
+    "rimraf": "^3.0.2"
+  }
+}
